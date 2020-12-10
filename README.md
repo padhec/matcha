@@ -1,2 +1,2 @@
 # Matcha
-Proyecto Matcha del curso Desarroyo web con JavaScript en @beduExpert.
+Proyecto Matcha del curso Desarrollo web con JavaScript en @beduExpert.
