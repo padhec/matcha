@@ -5,63 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matcha</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@900&family=Open+Sans&family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!-- Inicio de Header -->
     <header class="header-container">
-      <a class="header-container__logo" href="#"
+      <a class="header-container__link" href="#"
         ><img
+          class="header-container__logo"
           src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
           alt="Logo Matcha"
       /></a>
       <nav class="header-nav">
         <ul class="header-nav__list">
           <li class="header-nav__item">
-            <a class="header-nav__link" href="#">Platform</a>
+            <a class="header-nav__url" href="#">Platform</a>
           </li>
           <li class="header-nav__item">
-            <a class="header-nav__link" href="#">Pricing</a>
+            <a class="header-nav__url" href="#">Pricing</a>
           </li>
           <li class="header-nav__item">
-            <a class="header-nav__link" href="#">Customers</a>
+            <a class="header-nav__url" href="#">Customers</a>
           </li>
           <li class="header-nav__item">
-            <a class="header-nav__link" href="#">Resources</a>
+            <a class="header-nav__url" href="#">Resources</a>
           </li>
           <li class="header-nav__item">
-            <a class="header-nav__link" href="#">About</a>
+            <a class="header-nav__url" href="#">About</a>
           </li>
         </ul>
       </nav>
       <div class="header-sign">
-        <a class="header-sign__link" href="#">Sign In</a>
+        <a class="header-sign__url" href="#">Sign In</a>
         <button class="header-sign__button" type="submit">
           Start free trial
         </button>
       </div>
     </header>
-    <!-- Fin de Header -->
     <!-- Inicio de Main -->
-    <h1>Build your blog. Build your business.</h1>
-    <h3>
-      Instantly publish articles, drive more traffic, grow your email list, and
-      see your blog’s impact on sales.
-    </h3>
-    <form action="">
-      <input type="email" />
-      <button type="submit">Try it now</button>
-    </form>
-    <p>
-      Start publishing today with a free 7-day trial.<br />No credit card
-      required.
-    </p>
-    <img
-      src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png"
-      alt="Rank"
-    />
-    <!-- Fin de Main -->
+    <section class="hero-container">
+      <h1 class="hero-container__title">
+        Build your blog. Build your business.
+      </h1>
+      <h3 class="hero-container__subtitle">
+        Instantly publish articles, drive more traffic, grow your email list,
+        and see your blog’s impact on sales.
+      </h3>
+      <form class="hero-form" action="">
+        <input
+          class="hero-form__email"
+          type="email"
+          placeholder="Enter email adress"
+        />
+        <button class="hero-form__button" type="submit">Try it now</button>
+      </form>
+      <p class="hero-container__content">
+        Start publishing today with a <span>free 7-day trial.</span
+        ><br /><span>No credit card</span> required.
+      </p>
+      <figure class="figure-container">
+        <img
+          class="figure-container__img"
+          src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png"
+          alt="Rank"
+        />
+      </figure>
+    </section>
     <!-- Inicio de Footer -->
-    <!-- Fin de Footer -->
   </body>
 </html>

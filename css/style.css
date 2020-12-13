@@ -1,8 +1,10 @@
-/* * {
+/* General */
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} */
+}
 
 a {
   text-decoration: none;
@@ -10,42 +12,32 @@ a {
 
 body {
   background-color: #fffbf7;
-}
-
-li {
-  display: inline;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header > * {
   display: inline-block;
   font-size: 16px;
   height: 100%;
-  line-height: 45px;
   vertical-align: middle;
 }
 
-h1 {
-  color: #025157;
-}
-
-p {
-  color: #a2a1a0;
-}
+/* Header */
 
 .header-container {
-  border: red 1px solid;
+  /* border: red 1px solid; */
   font-family: sans-serif;
   font-size: 0;
-  height: 45px;
-  margin: 40px 20px 0;
+  margin: 15px 20px 0;
 }
 
-.header-container__logo {
+.header-container__link {
   width: 15%;
 }
 
-.header-container__logo > img {
+.header-container__logo {
   height: 100%;
+  vertical-align: middle;
 }
 
 .header-nav {
@@ -58,6 +50,10 @@ p {
 .header-nav__item {
   display: inline;
   margin: 0 25px;
+}
+
+.header-nav__item a {
+  color: #025157;
 }
 
 .header-sign {
@@ -77,8 +73,88 @@ p {
 
 .header-sign button {
   color: white;
+  cursor: pointer;
   background-color: #67b54b;
   border: 0;
   border-radius: 5px;
   padding: 12px 14px;
 }
+
+/* Main */
+
+/* Hero */
+
+.hero-container {
+  /* border: red 1px solid; */
+  margin: 35px auto;
+  text-align: center;
+}
+
+.hero-container__title {
+  color: #025157;
+  font-family: 'Alegreya', serif;
+  font-size: 60px;
+  margin: 15px auto;
+}
+
+.hero-container__subtitle {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px auto;
+}
+
+.hero-form {
+  margin: 15px auto;
+}
+
+.hero-form input::placeholder {
+  color: #d4d4d4;
+
+}
+
+.hero-form__email {
+  border: 0.5px #d4d4d4 solid;
+  border-radius: 10px 0 0 10px;
+  font-size: 15px;
+  height: 60px;
+  padding: 0 30px;
+  width: 300px;
+}
+
+.hero-form__email:focus {
+  outline: none;
+}
+
+.hero-form__button {
+  color: white;
+  cursor: pointer;
+  background-color: #025157;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  font-size: 15px;
+  height: 60px;
+  margin-left: -5px;
+  width: 100px;
+}
+
+.hero-container__content {
+  color: #a2a2a2;
+  margin-bottom: 30px;
+}
+
+.hero-container__content span {
+  font-weight: bold;
+}
+
+.figure-container {
+  /* border: red 1px solid; */
+  display: inline-block;
+  width: 800px;
+}
+
+.figure-container__img {
+  height: 35px;
+}
+
+/* Footer */
