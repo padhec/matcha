@@ -110,7 +110,6 @@ header > * {
 
 .hero-form input::placeholder {
   color: #d4d4d4;
-
 }
 
 .hero-form__email {
@@ -135,7 +134,7 @@ header > * {
   font-size: 15px;
   height: 60px;
   margin-left: -5px;
-  width: 100px;
+  width: 120px;
 }
 
 .hero-container__content {
@@ -147,14 +146,13 @@ header > * {
   font-weight: bold;
 }
 
-.figure-container {
-  /* border: red 1px solid; */
-  display: inline-block;
-  width: 800px;
+.figure-container__rank {
+  height: 40px;
 }
 
-.figure-container__img {
-  height: 35px;
+.figure-container__intro {
+  height: 800px;
+  margin: 20px auto;
 }
 
 /* Footer */
