@@ -1,5 +1,14 @@
 /* General */
 
+:root {
+  --principal-green: #025157;
+  --second-green: #67b54b;
+  --background-color: #fffbf7;
+  --principal-text: #000000;
+  --second-text: #a2a2a2;
+  --light-grey-color: #d4d4d4;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +20,7 @@ a {
 }
 
 body {
-  background-color: #fffbf7;
+  background-color: var(--background-color);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -41,7 +50,7 @@ header > * {
 }
 
 .header-nav {
-  color: #025157;
+  color: var(--principal-green);
   font-weight: 500;
   text-align: center;
   width: 70%;
@@ -53,7 +62,7 @@ header > * {
 }
 
 .header-nav__item a {
-  color: #025157;
+  color: var(--principal-green);
 }
 
 .header-sign {
@@ -68,13 +77,13 @@ header > * {
 }
 
 .header-sign a {
-  color: #67b54b;
+  color: var(--second-green);
 }
 
 .header-sign button {
   color: white;
   cursor: pointer;
-  background-color: #67b54b;
+  background-color: var(--second-green);
   border: 0;
   border-radius: 5px;
   padding: 12px 14px;
@@ -91,7 +100,7 @@ header > * {
 }
 
 .hero-container__title {
-  color: #025157;
+  color: var(--principal-green);
   font-family: 'Alegreya', serif;
   font-size: 60px;
   margin: 15px auto;
@@ -109,11 +118,11 @@ header > * {
 }
 
 .hero-form input::placeholder {
-  color: #d4d4d4;
+  color: var(--light-grey-color);
 }
 
 .hero-form__email {
-  border: 0.5px #d4d4d4 solid;
+  border: 0.5px var(--light-grey-color) solid;
   border-radius: 10px 0 0 10px;
   font-size: 15px;
   height: 60px;
@@ -128,7 +137,7 @@ header > * {
 .hero-form__button {
   color: white;
   cursor: pointer;
-  background-color: #025157;
+  background-color: var(--principal-green);
   border: none;
   border-radius: 0 10px 10px 0;
   font-size: 15px;
@@ -138,7 +147,7 @@ header > * {
 }
 
 .hero-container__content {
-  color: #a2a2a2;
+  color: var(--second-text);
   margin-bottom: 30px;
 }
 
