@@ -181,4 +181,42 @@ header > * {
   margin: 20px auto;
 }
 
+/* Promo video */
+
+.promo-container {
+  align-items: flex-start;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.promo-video {
+  /* border: 1px solid red; */
+}
+
+.promo-details {
+  /* border: 1px solid red; */
+  padding: 0 50px;
+  width: 800px;
+}
+
+.promo-title {
+  color: var(--principal-green);
+  font-family: 'Alegreya', serif;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.promo-description {
+  padding-bottom: 20px;
+}
+
+.promo-description span {
+  color: var(--second-text);
+}
+
+.promo-form input::placeholder {
+  color: var(--light-grey-color);
+}
+
 /* Footer */
