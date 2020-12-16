@@ -31,6 +31,41 @@ header > * {
   vertical-align: middle;
 }
 
+/* Botón principal */
+
+.button-green {
+  color: white;
+  cursor: pointer;
+  background-color: var(--principal-green);
+  border: none;
+  border-radius: 0 10px 10px 0;
+  font-size: 15px;
+  height: 60px;
+  margin-left: -5px;
+  width: 120px;  
+}
+
+/* Botón secundario */
+
+.button-ligh-green {
+  color: white;
+  cursor: pointer;
+  background-color: var(--second-green);
+  border: 0;
+  border-radius: 5px;
+  padding: 12px 14px;
+}
+
+/* Input principal */
+
+.principal-input {
+  border: 0.5px var(--light-grey-color) solid;
+  border-radius: 10px 0 0 10px;
+  font-size: 15px;
+  height: 60px;
+  padding: 0 30px;
+}
+
 /* Header */
 
 .header-container {
@@ -80,15 +115,6 @@ header > * {
   color: var(--second-green);
 }
 
-.header-sign button {
-  color: white;
-  cursor: pointer;
-  background-color: var(--second-green);
-  border: 0;
-  border-radius: 5px;
-  padding: 12px 14px;
-}
-
 /* Main */
 
 /* Hero */
@@ -121,20 +147,11 @@ header > * {
   color: var(--light-grey-color);
 }
 
-.hero-form__email {
-  border: 0.5px var(--light-grey-color) solid;
-  border-radius: 10px 0 0 10px;
-  font-size: 15px;
-  height: 60px;
-  padding: 0 30px;
-  width: 300px;
-}
-
 .hero-form__email:focus {
   outline: none;
 }
 
-.hero-form__button {
+/* .hero-form__button {
   color: white;
   cursor: pointer;
   background-color: var(--principal-green);
@@ -144,7 +161,7 @@ header > * {
   height: 60px;
   margin-left: -5px;
   width: 120px;
-}
+} */
 
 .hero-container__content {
   color: var(--second-text);
