@@ -184,18 +184,31 @@ header > * {
 /* Promo video */
 
 .promo-container {
-  align-items: flex-start;
+  align-items: center;
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
+  margin: 100px auto;
+  width: 80%;
 }
 
 .promo-video {
+  align-items: center;
   /* border: 1px solid red; */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.promo-video img {
+  margin-top: 10px;
+  width: 120px;
 }
 
 .promo-details {
   /* border: 1px solid red; */
+  align-self: flex-start;
+  flex: 2;
   padding: 0 50px;
   width: 800px;
 }
