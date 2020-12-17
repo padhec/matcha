@@ -69,10 +69,16 @@ header > * {
 /* Header */
 
 .header-container {
+  background-color: var(--background-color);
   /* border: red 1px solid; */
   font-family: sans-serif;
   font-size: 0;
-  margin: 15px 20px 0;
+  /* margin: 15px 20px 0; */
+  padding: 15px 20px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header-container__link {
@@ -121,7 +127,7 @@ header > * {
 
 .hero-container {
   /* border: red 1px solid; */
-  margin: 35px auto;
+  margin: 80px auto;
   text-align: center;
 }
 
