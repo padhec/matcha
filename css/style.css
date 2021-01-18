@@ -226,4 +226,58 @@ header > * {
   color: var(--light-grey-color);
 }
 
-/* Footer */
+/* Features cards */
+
+.features-container {
+  background-color: var(--principal-green);
+  display: grid;
+  grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  padding: 5% 10%;
+}
+
+.feature-card {
+  align-items: center;
+  background-color: white;
+  border: 1px solid var(--light-grey-color);
+  border-radius: 5px;
+  display: flex;
+  margin: 0 15px 30px;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.feature-content > * {
+  margin-bottom: 10px;
+}
+
+.feature-content h3 {
+  color: var(--principal-text);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.feature-content p {
+  color: var(--second-text);
+}
+
+.feature-content a {
+  color: var(--second-green);
+  font-weight: 600;
+}
+
+.feature-icon img {
+  width: 70px;
+}
+
+.feature-image {
+  height: 130%;
+  position: relative;
+  right: -50px;
+  width: 40%;
+}
+
+.feature-image img {
+  height: 100%;
+}
+
+/* Footer */ ;
